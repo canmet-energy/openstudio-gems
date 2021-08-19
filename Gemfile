@@ -12,7 +12,7 @@ gemspec
 # This is needed if the version of the gem you want to use is not on rubygems
 
 # gem 'openstudio-extension', '= 0.4.3'
-'openstudio-extension', :git => 'https://github.com/canmet-energy/openstudio-extension-gem.git', :branch => 'develop'
+gem 'openstudio-extension', :git => 'https://github.com/canmet-energy/openstudio-extension-gem.git', :branch => 'develop'
 gem 'openstudio-workflow', '= 2.2.1'
 
 gem 'openstudio-standards', '= 0.2.14'
